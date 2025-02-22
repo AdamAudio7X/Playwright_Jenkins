@@ -4,7 +4,7 @@ import { test, expect } from '@playwright/test';
 test('test_Title_01', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
-  console.log ("testing by PK removed code from GitHub commit")
+  console.log ("testing by PK FROM GITHUB!!")
   await page.waitForTimeout(2000)
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
